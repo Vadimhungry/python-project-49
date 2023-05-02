@@ -2,13 +2,14 @@
 from brain_games.cli import welcome_user
 import prompt
 
+
 def logic(game):
     # приветствуем юзера и сохраняем имя
     name = welcome_user()
 
     for i in range(3):
         # задаем вопрос и сохраняем ответ
-        answer = game()
+        answer = str(game())
 
         # принимаем ответ
         user_answer = prompt.string('Your answer: ')

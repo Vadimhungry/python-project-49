@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import random
 
+
 def game():
 
     # формируем случайное число и верный ответ
@@ -11,6 +12,3 @@ def game():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     print(f'Question: {num}')
     return answer
-
-
-
