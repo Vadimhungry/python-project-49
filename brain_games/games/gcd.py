@@ -20,6 +20,4 @@ def game():
     print('Find the greatest common divisor of given numbers.')
     print(f'Question: {a} {b}')
 
-
     return gcd
-
