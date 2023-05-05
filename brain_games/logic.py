@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-from brain_games.cli import welcome_user
 import prompt
 
+def welcome_user():
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
+    print('Give three correct answers in a row to win.')
+    return name
 
-def logic(game):
+def play(game):
     # приветствуем юзера и сохраняем имя
     name = welcome_user()
 
@@ -14,14 +19,14 @@ def logic(game):
         # принимаем ответ
         user_answer = prompt.string('Your answer: ')
 
-        if user_answer == answer:
-            print('Correct!')
-        else:
-            break
 
-    if i == 2:
-        print(f"Congratulations, {name}!")
+        if user_answer != answer:
+            print(f"'{user_answer}' is wrong answer ;(")
+            print(f"Correct answer was '{answer}'")
+            print(f"Let's try again, {name}!")
+            break
     else:
-        print(f"'{user_answer}' is wrong answer ;(")
-        print(f"Correct answer was '{answer}'")
-        print(f"Let's try again, {name}!")
+        print('Correct!')
+        print(f"Congratulations, {name}!")
+
+

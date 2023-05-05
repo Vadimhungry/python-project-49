@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 from brain_games.games.calc import game
-from brain_games.logic import logic
+from brain_games.logic import play
 
 
 def main():
     # запускаем игру
-    logic(game)
+    play(game)
 
 
 if __name__ == '__main__':
