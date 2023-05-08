@@ -25,11 +25,19 @@ Use terminal commands:
 
 <a href="https://codeclimate.com/github/Vadimhungry/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/95c63a6530cfe1d4ea5d/maintainability" /></a>
 
-[![asciicast](https://asciinema.org/a/U2HOn4UXsyR2xxnmR6T0OQkHc.svg)](https://asciinema.org/a/U2HOn4UXsyR2xxnmR6T0OQkHc)
-[![asciicast](https://asciinema.org/a/2RDR883hEj9ZTkBYVV8wliRWL.svg)](https://asciinema.org/a/2RDR883hEj9ZTkBYVV8wliRWL)
-[![asciicast](https://asciinema.org/a/oHQYO5NdufxVPdhE6xLNnyP7p.svg)](https://asciinema.org/a/oHQYO5NdufxVPdhE6xLNnyP7p)
-[![asciicast](https://asciinema.org/a/fj4p9BGKpdpJs3TKxCXsCBHJO.svg)](https://asciinema.org/a/fj4p9BGKpdpJs3TKxCXsCBHJO)
-[![asciicast](https://asciinema.org/a/jTWQyy9D9xplckzLs5P2o9AbJ.svg)](https://asciinema.org/a/jTWQyy9D9xplckzLs5P2o9AbJ)
+### Games demo
+1. Test
+[![asciicast](https://asciinema.org/a/ugmgV96XeD7l0xbxBcVxaO5sf.svg)](https://asciinema.org/a/ugmgV96XeD7l0xbxBcVxaO5sf)
+2. Even number
+[![asciicast](https://asciinema.org/a/wTvtd7hxfGJ3vgBSXPrt7BrHV.svg)](https://asciinema.org/a/wTvtd7hxfGJ3vgBSXPrt7BrHV)
+3. Brain calculator
+[![asciicast](https://asciinema.org/a/HqaSQNhNcPhU4JS5XDrssKWOd.svg)](https://asciinema.org/a/HqaSQNhNcPhU4JS5XDrssKWOd)
+4. Greatest common divisor
+[![asciicast](https://asciinema.org/a/SF3JcSmdD5DFP5XrAqRKqMVSA.svg)](https://asciinema.org/a/SF3JcSmdD5DFP5XrAqRKqMVSA)
+5. Progression
+[![asciicast](https://asciinema.org/a/LCHFtr9kanvUnsyLLdORZjRSk.svg)](https://asciinema.org/a/LCHFtr9kanvUnsyLLdORZjRSk)
+6. Prime number
+[![asciicast](https://asciinema.org/a/NU94wE92TvEswTJDN2Op3iQCv.svg)](https://asciinema.org/a/NU94wE92TvEswTJDN2Op3iQCv)
 
 This project was built using these tools:
 
