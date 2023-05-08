@@ -4,13 +4,15 @@ This is a collection of five games to play in terminal.
  
 
 ## How to install?
+Open terminal and execute the commands:
 
-
+1. `git clone https://github.com/Vadimhungry/python-project-49.git`
+2. `python3 -m pip install --user dist/*.whl`
 
 ## How to play?
 
 Use terminal commands:
-1. `brain-games` - test correct installation of package 
+1. `brain-games` - for testing installation of package 
 2. `brain-even` - launch the game "Even number"
 3. `brain-calc` - launch the game "Brain calculator"
 4. `brain-gcd` - launch the game "Greatest common divisor"

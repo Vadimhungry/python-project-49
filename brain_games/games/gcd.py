@@ -1,12 +1,7 @@
-#!/usr/bin/env python3
 import random
 
 
-def game():
-    # формируем два случайных числа
-    a = random.randint(1, 100)
-    b = random.randint(1, 100)
-
+def find_gcd(a, b):
     # находим наименьший общий делитель
     if a > b:
         temp = b
@@ -15,9 +10,15 @@ def game():
     for i in range(1, temp + 1):
         if ((a % i == 0) and (b % i == 0)):
             gcd = i
+    return gcd
 
-    # задаем вопрос
-    print('Find the greatest common divisor of given numbers.')
+
+def init_game():
+    a = random.randint(1, 100)
+    b = random.randint(1, 100)
+
+    gcd = find_gcd(a, b)
+
     print(f'Question: {a} {b}')
 
     return gcd
