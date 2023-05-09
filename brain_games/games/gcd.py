@@ -7,9 +7,10 @@ def find_gcd(a, b):
     # находим наименьший общий делитель
     temp = b if a > b else a
     i = 1
-    while i < temp:
+    while i <= temp:
         if ((a % i == 0) and (b % i == 0)):
             gcd = i
+
         i += 1
     return gcd
 
