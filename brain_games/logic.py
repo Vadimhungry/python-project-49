@@ -13,8 +13,10 @@ def play(game):
     # print(QUERY)
     for i in range(ROUNDS_COUNT):
         # задаем вопрос и сохраняем ответ
-        answer = str(game.init_game())
-
+        q_and_a = game.init_game()
+        question_expression = q_and_a['question_expression']
+        answer = str(q_and_a['answer'])
+        print(f'Question: {question_expression}')
         # принимаем ответ
         user_answer = prompt.string('Your answer: ')
 

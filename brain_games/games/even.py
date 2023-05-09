@@ -8,5 +8,5 @@ def init_game():
     num = random.randint(1, 100)
     answer = 'yes' if num % 2 == 0 else 'no'
 
-    print(f'Question: {num}')
-    return answer
+    return {'answer': answer,
+            'question_expression': num}

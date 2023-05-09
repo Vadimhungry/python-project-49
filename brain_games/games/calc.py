@@ -7,10 +7,12 @@ def init_game():
     num2 = random.randint(1, 100)
 
     sign = random.choice(['+', '-', '*'])
-    print(f'Question: {num1} {sign} {num2}')
+
     if sign == '+':
-        return num1 + num2
+        answer = num1 + num2
     if sign == '-':
-        return num1 - num2
+        answer = num1 - num2
     if sign == '*':
-        return num1 * num2
+        answer = num1 * num2
+    return {'answer': answer,
+            'question_expression': f'{num1} {sign} {num2}'}

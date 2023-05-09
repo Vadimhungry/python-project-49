@@ -18,8 +18,7 @@ def init_game():
     a = random.randint(1, 100)
     b = random.randint(1, 100)
 
-    gcd = find_gcd(a, b)
+    answer = find_gcd(a, b)
 
-    print(f'Question: {a} {b}')
-
-    return gcd
+    return {'answer': answer,
+            'question_expression': f'{a} {b}'}
