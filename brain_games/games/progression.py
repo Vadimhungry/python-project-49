@@ -10,11 +10,7 @@ def init_game():
 
     x_position = progression.index(answer)
     progression[x_position] = '..'
-
-    for i in range(len(progression)):
-        progression[i] = str(progression[i])
-    sringed_prog = ' '.join(progression)
-
-    print(f'Question: {sringed_prog}')
+    stringed_prog = list(map(str, progression))
+    print(f'Question: {stringed_prog}')
 
     return answer
