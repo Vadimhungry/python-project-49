@@ -10,8 +10,8 @@ def init_game():
 
     x_position = progression.index(answer)
     progression[x_position] = '..'
-    stringed_prog = list(map(str, progression))
-    print()
+    prog_list_of_strings = list(map(str, progression))
+    prog_for_question =' '.join(prog_list_of_strings)
 
     return {'answer': answer,
-            'question_expression': f'{stringed_prog}'}
+            'question_expression': f'{prog_for_question}'}
