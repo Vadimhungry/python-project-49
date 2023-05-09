@@ -13,6 +13,7 @@ def find_gcd(a, b):
         i += 1
     return gcd
 
+
 def init_game():
     a = random.randint(1, 100)
     b = random.randint(1, 100)
