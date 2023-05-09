@@ -4,11 +4,8 @@ QUERY = 'What number is missing in the progression?'
 
 def init_game():
     step = random.randint(1, 9)
-    length = random.randint(5, 10)
-    progression = [random.randint(1, 100)]
-    for i in range(1, length):
-        progression.append(progression[i - 1] + step)
-
+    length = random.randint(5, 10) * step
+    progression = list(range(1, length, step))
     answer = random.choice(progression)
 
     x_position = progression.index(answer)
