@@ -1,21 +1,19 @@
 import prompt
 
+ROUNDS_COUNT = 3
 
-def welcome_user():
+
+def play(game):
+
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print('Give three correct answers in a row to win.')
-    return name
-
-
-def play(game, question):
-    # приветствуем юзера и сохраняем имя
-    name = welcome_user()
-    print(question)
-    for i in range(3):
+    print(game.QUERY)
+    # print(QUERY)
+    for i in range(ROUNDS_COUNT):
         # задаем вопрос и сохраняем ответ
-        answer = str(game())
+        answer = str(game.init_game())
 
         # принимаем ответ
         user_answer = prompt.string('Your answer: ')

@@ -1,5 +1,7 @@
 import random
 
+QUERY = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def init_game():
 

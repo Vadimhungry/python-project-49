@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.games.calc import init_game
-from brain_games.logic import play
+import brain_games.games.calc as calc
+import brain_games.logic as logic
 
 
 def main():
     # запускаем игру
-    play(init_game, 'What is the result of the expression?')
+    logic.play(calc)
 
 
 if __name__ == '__main__':

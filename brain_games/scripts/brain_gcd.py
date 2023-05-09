@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.games.gcd import init_game
-from brain_games.logic import play
+import brain_games.games.gcd as gcd
+import brain_games.logic as logic
 
 
 def main():
     # запускаем игру
-    play(init_game, 'Find the greatest common divisor of given numbers.')
+    logic.play(gcd)
 
 
 if __name__ == '__main__':

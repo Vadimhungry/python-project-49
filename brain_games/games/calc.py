@@ -1,4 +1,5 @@
 import random
+QUERY = 'What is the result of the expression?'
 
 
 def init_game():

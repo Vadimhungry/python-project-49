@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.games.prime import init_game
-from brain_games.logic import play
-
-welcome_statement = 'Answer "yes" if given number is prime.' \
-                    ' Otherwise answer "no".'
+import brain_games.games.prime as prime
+import brain_games.logic as logic
 
 
 def main():
     # запускаем игру
-    play(init_game, welcome_statement)
+    logic.play(prime)
 
 
 if __name__ == '__main__':

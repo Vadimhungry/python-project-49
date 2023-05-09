@@ -1,4 +1,5 @@
 import random
+QUERY = 'What number is missing in the progression?'
 
 
 def init_game():
