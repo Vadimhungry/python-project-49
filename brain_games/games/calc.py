@@ -10,7 +10,7 @@ def init_game():
     print(f'Question: {num1} {sign} {num2}')
     if sign == '+':
         return num1 + num2
-    elif sign == '-':
+    if sign == '-':
         return num1 - num2
-    else:
+    if sign == '*':
         return num1 * num2

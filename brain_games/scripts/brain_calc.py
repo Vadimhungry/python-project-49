@@ -4,7 +4,6 @@ import brain_games.logic as logic
 
 
 def main():
-    # запускаем игру
     logic.play(calc)
 
 
