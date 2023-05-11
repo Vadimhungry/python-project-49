@@ -1,5 +1,5 @@
 import random
-QUERY = 'What is the result of the expression?'
+QUESTION = 'What is the result of the expression?'
 
 
 def generate_question_and_answer():

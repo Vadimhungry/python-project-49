@@ -1,6 +1,6 @@
 import random
 
-QUERY = 'Answer "yes" if the number is even, otherwise answer "no".'
+QUESTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def generate_question_and_answer():

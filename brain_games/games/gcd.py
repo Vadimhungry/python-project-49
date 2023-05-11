@@ -1,6 +1,6 @@
 import random
 
-QUERY = 'Find the greatest common divisor of given numbers.'
+QUESTION = 'Find the greatest common divisor of given numbers.'
 
 
 def find_gcd(a, b):

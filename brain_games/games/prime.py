@@ -1,5 +1,5 @@
 import random
-QUERY = 'Answer "yes" if given number is prime.' \
+QUESTION = 'Answer "yes" if given number is prime.' \
         ' Otherwise answer "no".'
 
 

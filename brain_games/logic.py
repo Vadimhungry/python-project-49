@@ -9,7 +9,7 @@ def play(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print('Give three correct answers in a row to win.')
-    print(game.QUERY)
+    print(game.QUESTION)
 
     for i in range(ROUNDS_COUNT):
         # задаем вопрос и сохраняем ответ

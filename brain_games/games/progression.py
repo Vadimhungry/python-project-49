@@ -1,5 +1,5 @@
 import random
-QUERY = 'What number is missing in the progression?'
+QUESTION = 'What number is missing in the progression?'
 
 
 def generate_question_and_answer():
