@@ -21,5 +21,4 @@ def generate_question_and_answer():
 
     answer = find_gcd(a, b)
 
-    return {'answer': str(answer),
-            'question_expression': f'{a} {b}'}
+    return str(answer), f'{a} {b}'

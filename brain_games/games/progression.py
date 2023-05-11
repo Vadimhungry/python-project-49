@@ -13,5 +13,4 @@ def generate_question_and_answer():
     prog_list_of_strings = list(map(str, progression))
     prog_for_question = ' '.join(prog_list_of_strings)
 
-    return {'answer': str(answer),
-            'question_expression': f'{prog_for_question}'}
+    return str(answer), f'{prog_for_question}'

@@ -8,5 +8,4 @@ def generate_question_and_answer():
     num = random.randint(1, 100)
     answer = 'yes' if num % 2 == 0 else 'no'
 
-    return {'answer': answer,
-            'question_expression': str(num)}
+    return answer, str(num)

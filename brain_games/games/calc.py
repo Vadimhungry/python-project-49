@@ -14,5 +14,4 @@ def generate_question_and_answer():
         answer = num1 - num2
     if sign == '*':
         answer = num1 * num2
-    return {'answer': str(answer),
-            'question_expression': f'{num1} {sign} {num2}'}
+    return str(answer), f'{num1} {sign} {num2}'
