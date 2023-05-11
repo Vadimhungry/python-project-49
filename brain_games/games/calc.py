@@ -14,5 +14,5 @@ def init_game():
         answer = num1 - num2
     if sign == '*':
         answer = num1 * num2
-    return {'answer': answer,
+    return {'answer': str(answer),
             'question_expression': f'{num1} {sign} {num2}'}

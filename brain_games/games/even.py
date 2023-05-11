@@ -9,4 +9,4 @@ def init_game():
     answer = 'yes' if num % 2 == 0 else 'no'
 
     return {'answer': answer,
-            'question_expression': num}
+            'question_expression': str(num)}

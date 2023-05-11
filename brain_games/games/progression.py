@@ -13,5 +13,5 @@ def init_game():
     prog_list_of_strings = list(map(str, progression))
     prog_for_question = ' '.join(prog_list_of_strings)
 
-    return {'answer': answer,
+    return {'answer': str(answer),
             'question_expression': f'{prog_for_question}'}

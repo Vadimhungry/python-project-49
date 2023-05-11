@@ -21,5 +21,5 @@ def init_game():
 
     answer = find_gcd(a, b)
 
-    return {'answer': answer,
+    return {'answer': str(answer),
             'question_expression': f'{a} {b}'}

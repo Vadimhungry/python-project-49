@@ -10,12 +10,12 @@ def play(game):
     print(f'Hello, {name}!')
     print('Give three correct answers in a row to win.')
     print(game.QUERY)
-    # print(QUERY)
+
     for i in range(ROUNDS_COUNT):
         # задаем вопрос и сохраняем ответ
-        q_and_a = game.init_game()
-        question_expression = q_and_a['question_expression']
-        answer = str(q_and_a['answer'])
+        game_data = game.init_game()
+        question_expression = game_data['question_expression']
+        answer = game_data['answer']
         print(f'Question: {question_expression}')
         # принимаем ответ
         user_answer = prompt.string('Your answer: ')
