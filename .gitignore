@@ -1,5 +1,5 @@
-.venv/
-.dist/
 .DS_Store
-.__pycache__/
+venv/
+dist/
 .idea/
+brain_games/__pycache__/
