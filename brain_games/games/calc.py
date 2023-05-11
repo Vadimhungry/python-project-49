@@ -2,7 +2,7 @@ import random
 QUERY = 'What is the result of the expression?'
 
 
-def init_game():
+def generate_question_and_answer():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
 

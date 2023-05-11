@@ -2,7 +2,7 @@ import random
 QUERY = 'What number is missing in the progression?'
 
 
-def init_game():
+def generate_question_and_answer():
     step = random.randint(1, 9)
     length = random.randint(5, 10) * step
     progression = list(range(1, length, step))

@@ -2,4 +2,4 @@
 venv/
 dist/
 .idea/
-brain_games/__pycache__/
+brain_games/games/__pycache__/

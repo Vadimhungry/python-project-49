@@ -13,7 +13,7 @@ def play(game):
 
     for i in range(ROUNDS_COUNT):
         # задаем вопрос и сохраняем ответ
-        game_data = game.init_game()
+        game_data = game.generate_question_and_answer()
         question_expression = game_data['question_expression']
         answer = game_data['answer']
         print(f'Question: {question_expression}')

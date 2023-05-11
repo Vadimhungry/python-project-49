@@ -15,7 +15,7 @@ def find_gcd(a, b):
     return gcd
 
 
-def init_game():
+def generate_question_and_answer():
     a = random.randint(1, 100)
     b = random.randint(1, 100)
 
