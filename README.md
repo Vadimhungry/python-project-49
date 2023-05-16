@@ -1,9 +1,14 @@
 # Welcome to BRAINGAMES!
 
-This is a collection of five games to play in terminal.
- 
+This is a collection of five games to play in terminal:
+1. 'Even number' - in this game you can try to guess if the number is even or no.
+2. 'Brain calculator' - in this game you can try to evaluate randomly generated math expression such as 'x + y', 'x - y' or 'x * y'.  
+3. 'Greatest common divisor' - in this game you can try to find greatest common divisor for two random numbers.
+4. 'Progression' - in this game you will try to guess hidden number of randomly generated progression.
+5. 'Prime number' - in this game you can try to guess if the number is prime or no.
 
 ## How to install?
+
 Open terminal and execute the commands:
 
 1. `git clone https://github.com/Vadimhungry/python-project-49.git`
@@ -11,14 +16,13 @@ Open terminal and execute the commands:
 
 ## How to play?
 
-Use terminal commands:
-1. `brain-games` - for testing installation of package 
-2. `brain-even` - launch the game "Even number"
-3. `brain-calc` - launch the game "Brain calculator"
-4. `brain-gcd` - launch the game "Greatest common divisor"
-5. `brain-progression` -  launch the game "Progression"
-6. `brain-prime` - launch the game "Prime number"
-
+Use terminal commands: 
+1. `brain-even` - launch the game "Even number"
+2. `brain-calc` - launch the game "Brain calculator"
+3. `brain-gcd` - launch the game "Greatest common divisor"
+4. `brain-progression` -  launch the game "Progression"
+5. `brain-prime` - launch the game "Prime number"
+6. `brain-games` - for testing installation of package
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Vadimhungry/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Vadimhungry/python-project-49/actions)
