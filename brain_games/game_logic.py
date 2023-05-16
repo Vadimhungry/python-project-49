@@ -12,11 +12,8 @@ def play(game):
     print(game.QUESTION)
 
     for i in range(ROUNDS_COUNT):
-        # задаем вопрос и сохраняем ответ
         answer, question_expression = game.generate_question_and_answer()
-
         print(f'Question: {question_expression}')
-        # принимаем ответ
         user_answer = prompt.string('Your answer: ')
 
         if user_answer != answer:

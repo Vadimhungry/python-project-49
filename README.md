@@ -5,7 +5,7 @@ This is a collection of five games to play in terminal:
 2. 'Brain calculator' - in this game you can try to evaluate randomly generated math expression such as 'x + y', 'x - y' or 'x * y'.  
 3. 'Greatest common divisor' - in this game you can try to find greatest common divisor for two random numbers.
 4. 'Progression' - in this game you will try to guess hidden number of randomly generated progression.
-5. 'Prime number' - in this game you can try to guess if the number is prime or no.
+5. 'Prime number' - in this game you can try to guess if the number is even or no.
 
 ## How to install?
 
